@@ -9,7 +9,7 @@ RDEPENDS_${PN} += "coreutils"
 
 S = "${WORKDIR}"
 
-SRC_URI = "git://github.com/iot-lab/iot-lab-dev.git;user=git;protocol=ssh;branch=master"
+SRC_URI = "git://github.com/iot-lab/iot-lab-dev.git;branch=master;protocol=https"
 SRCREV = "${AUTOREV}"
 
 do_install() {
