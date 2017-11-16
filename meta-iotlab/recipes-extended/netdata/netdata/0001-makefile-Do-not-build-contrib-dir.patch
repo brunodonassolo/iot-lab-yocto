@@ -14,11 +14,12 @@ diff --git a/Makefile.am b/Makefile.am
 index 3ccf82f8..a852e529 100644
 --- a/Makefile.am
 +++ b/Makefile.am
-@@ -52,7 +52,6 @@ SUBDIRS = \
+@@ -56,7 +56,6 @@ SUBDIRS = \
  	src \
  	system \
  	web \
 -	contrib \
+ 	tests \
  	$(NULL)
  
  dist_noinst_DATA= \
